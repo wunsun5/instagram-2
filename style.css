@@ -1,0 +1,75 @@
+@import url(https://db.onlinewebfonts.com/c/6d32b8e06f40fb7698cfb714b9e7975d?family=Billabong+W00+Regular);
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.instagram{
+    position: relative;
+    width: 28em;
+    height: 8em;
+    background: linear-gradient(to right, #f9ed67 0%,
+                                #ee653d 25%, #d42e81 50%,
+                                #a237b6 75% , #3e5fbc 100%);
+    border-radius: .5em;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);           
+}
+
+.instagram::before{
+    content: '';
+    position: absolute;
+    height: 5.5em;
+    width: .2em;
+    background-color: white;
+    top: 50%;
+    left: 10em;
+    transform: translateY(-50%);
+}
+
+.logo{
+    position: relative;
+    width: 4em;
+    height: 4em;
+    border: .4em solid white;
+    border-radius: 1.5em;
+    top: 50%;
+    left: 3em;
+    transform: translateY(-50%);
+}
+
+.logo::before{
+    content: "";
+    position: absolute;
+    width: 1.6em;
+    height: 1.6em;
+    border: .4em solid white;
+    border-radius: 1.5em;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo::after{
+    content: '';
+    position: absolute;
+    width: .5em;
+    height: .5em;
+    border-radius: 50%;
+    background-color: white;
+    right: .5em;
+    top: .5em;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translateY(-35%);
+    font-size: 4.2em;
+    color: white;
+    font-family: 'Billabong W00 Regular';
+}
+
+
